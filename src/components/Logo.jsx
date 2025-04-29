@@ -1,10 +1,10 @@
 import React from 'react'
 import logoImage from '../images/download.png';
 
-function Logo({ width = '100px' }) {
+function Logo({ width = '500px' }) {
     return (
         <div>
-            <img src={logoImage} alt="logo" />
+            <img src={logoImage} alt="logo" width={width} />
         </div>
     )
 }
